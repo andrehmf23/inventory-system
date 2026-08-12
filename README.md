@@ -55,7 +55,9 @@ Sistema web de gerenciamento de estoque para pequenas e médias empresas, permit
 
 ## 5. Usuários e permissões
 
-A definir.
+Administrador - Total
+Gerente - Total (Não cria usuários)
+Funcionário - Estrada, Saída e Consulta
 
 ## 6. Fluxos principais
 
