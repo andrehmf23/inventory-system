@@ -5,8 +5,7 @@
 - id
 - nome
 - email
-- senha
-- perfil
+- senha_hash
 - papel
 - status
 
@@ -16,10 +15,21 @@
 - nome
 - sku
 - categoria_id
-- fornecedora_id
-- preco
+- fornecedor_id
+- preco_custo
 - estoque_minimo
 - status
+
+## Estoque
+
+- id
+- produto_id
+- quantidade
+
+## Categorias
+
+- id
+- nome
 
 ## Movimentações
 
@@ -31,7 +41,7 @@
 - quantidade
 - data
 
-## Fornecedora
+## Fornecedores
 
 - id
 - nome

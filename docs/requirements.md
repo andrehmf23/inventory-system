@@ -19,4 +19,5 @@ RNF03 — O sistema deve impedir operações que resultem em estoque negativo.
 RNF04 — Toda movimentação deve preservar a consistência dos dados do estoque.
 RNF05 — A API deve validar os dados recebidos pelo cliente.
 RNF06 — O sistema deve registrar o usuário responsável por cada movimentação.
+RNF06 — O sistema deve gerar um token para cada login com atualização de 15 minutos durante 7 dias.
 

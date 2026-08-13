@@ -24,11 +24,25 @@
 - A movimentação fica registrada no histórico.
 
 ## UC02 — Registrar saída
-- Realizar login no sistema
-- Selecionar produto
-- Informar quantidade
-- Informar motivo
-- Sistema verifica estoque
-- Sistema verifica privilegios
-- Sistema registra movimentação
-- Sistema atualiza estoque
+
+**Ator:** Funcionário, Gerente ou Administrador
+
+**Pré-condições:**
+- Usuário deve estar autenticado.
+- Usuário deve possuir permissão para registrar saídas.
+- Produto deve estar cadastrado.
+
+**Fluxo principal:**
+1. Usuário seleciona o produto.
+2. Usuário informa a quantidade.
+3. Usuário informa o motivo da saída.
+4. Sistema valida os dados.
+5. Sistema verifica as permissões do usuário.
+6. Sistema verifica se existe quantidade suficiente em estoque.
+7. Sistema registra a movimentação de saída.
+8. Sistema atualiza a quantidade disponível do produto.
+9. Sistema registra o usuário responsável e a data da movimentação.
+
+**Resultado:**
+- A quantidade do produto é decrementada.
+- A movimentação fica registrada no histórico.
