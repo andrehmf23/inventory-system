@@ -2,71 +2,50 @@
 
 Full-stack inventory management system built with React, Node.js, Express and MySQL.
 
-## 1. Objetivo
+## Sobre o projeto
 
-Sistema web de gerenciamento de estoque para pequenas e médias empresas, permitindo cadastrar produtos, controlar entradas e saídas, acompanhar os níveis de estoque e visualizar indicadores.
+Sistema web de gerenciamento de estoque para pequenas e médias empresas, desenvolvido para controlar produtos, movimentações de estoque, usuários e níveis de estoque.
 
-## 2. Público-alvo
+## Funcionalidades
 
-- Pequenas lojas.
-- Médias empresas.
-- Funcionários responsáveis pelo estoque.
-- Gerentes.
-- Administradores.
+- Cadastro e gerenciamento de produtos.
+- Controle de entradas e saídas de estoque.
+- Histórico de movimentações.
+- Identificação de produtos com estoque baixo.
+- Autenticação de usuários.
+- Controle de acesso por perfil.
+- Dashboard com indicadores de estoque.
+- Gerenciamento de usuários.
 
-## 3. Problemas que resolve
+## Usuários e permissões
 
-- Complexidade no gerenciamento de estoque.
-- Falta de histórico de entradas e saídas.
-- Dificuldade para acompanhar a quantidade disponível de cada produto.
-- Dificuldade para identificar produtos com estoque baixo.
-- Falta de controle sobre quem realizou uma movimentação.
-- Erros causados por registros manuais.
+- **Administrador** — acesso completo ao sistema.
+- **Gerente** — gerenciamento de produtos e estoque.
+- **Funcionário** — consulta, entradas e saídas de estoque.
 
-## 4. Funcionalidades
+## Tecnologias
 
-### Produtos
+- React
+- Node.js
+- Express
+- MySQL
 
-- Cadastrar produto.
-- Editar produto.
-- Desativar produto.
-- Pesquisar produto.
-- Visualizar informações do produto.
+## Documentação
 
-### Estoque
+A documentação detalhada do projeto está disponível em:
 
-- Registrar entrada de estoque.
-- Registrar saída de estoque.
-- Consultar quantidade disponível.
-- Identificar produtos com estoque baixo.
-- Consultar histórico de movimentações.
+- [Requisitos](docs/requirements.md)
+- [Casos de uso](docs/use-cases.md)
+- [Regras de negócio](docs/business-rules.md)
+- [Banco de dados](docs/database.md)
+- [Arquitetura](docs/architecture.md)
 
-### Usuários
+## Estrutura do projeto
 
-- Realizar login.
-- Gerenciar usuários.
-- Definir perfil de acesso.
-
-### Indicadores
-
-- Visualizar quantidade total de produtos.
-- Visualizar produtos com estoque baixo.
-- Visualizar entradas e saídas recentes.
-
-## 5. Usuários e permissões
-
-Administrador - Total
-Gerente - Total (Não cria usuários)
-Funcionário - Estrada, Saída e Consulta
-
-## 6. Fluxos principais
-
-A definir.
-
-## 7. Entidades do sistema
-
-A definir.
-
-## 8. Telas necessárias
-
-A definir.
+```text
+inventory-system/
+├── docs/
+├── frontend/
+├── backend/
+├── README.md
+└── ...
